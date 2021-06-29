@@ -1,7 +1,6 @@
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 from rest_framework_simplejwt.views import TokenObtainPairView
-
 from users.serializers import CustomTokenObtainPair
 from users.views import RegistrationViewSet, UsersViewSet
 from .views import (CategoryViewSet, CommentsViewSet, GenreViewSet,
