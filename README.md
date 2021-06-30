@@ -18,7 +18,7 @@ Django REST Framework 4.6.0
 ### Запуск проекта в dev-режиме
 - Скачайте и запустите образ:
 ```
-docker run earmos/yamdb:v3
+docker run earmos/yamdb:lastes
 ``` 
 - Запустите проект:
 ```
@@ -38,3 +38,6 @@ docker-compose exec web python manage.py collectstatic --no-input
 ```
 ### Авторы
 Анастасия Еременко, Игорь Погребняк, Сергей Мусорин 
+
+
+https://github.com/nastyaeremenko/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg
