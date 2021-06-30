@@ -9,7 +9,6 @@ services:
       - ./.env
   web:
     image: earmos/yamdb:lastes
-    build: .
     restart: always
     volumes:
       - static_value:/code/static/
