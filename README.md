@@ -1,4 +1,4 @@
-﻿# api_yamdb
+﻿# api_yamdb ![GitHub Actions status](https://github.com/nastyaeremenko/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 ### Описание
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
 Сами произведения в YaMDb не хранятся, здесь нельзя посмотреть фильм или послушать музыку.
@@ -38,6 +38,3 @@ docker-compose exec web python manage.py collectstatic --no-input
 ```
 ### Авторы
 Анастасия Еременко, Игорь Погребняк, Сергей Мусорин 
-
-
-https://github.com/nastyaeremenko/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg
