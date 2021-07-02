@@ -22,11 +22,13 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./templates:/etc/nginx/templates
       - static_value:/var/html/static/
       - media_value:/var/html/media/
     depends_on:
       - web
+    env_file:
+      - ./.env
 
 volumes:
   postgres_data:
