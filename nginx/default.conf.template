@@ -1,7 +1,7 @@
 server {
     listen 80;
 
-    ${VM_NAME} ${HOST};
+    server_name ${HOST};
 
     location /static/ {
         root /var/html/;
